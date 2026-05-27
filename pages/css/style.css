@@ -5,30 +5,50 @@
 body {
     margin: 0;
     background-color: #efefef;
+    font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: "Raleway", sans-serif;
 }
 
 header {
     max-width: 1200px;
+    height: 165px;
     margin: 0 auto;
-    background-color: #1ca9b0;
+    background-color: #17abb3;
+    color: white;
 }
 
-.entete {
-    min-height: 220px;
+.entête {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 300px;
-    padding: 32px 70px;
+    gap: 220px;
+    padding: 0 70px;
 }
 
 .photo {
-    width: 150px;
-    height: 150px;
-    border: 5px solid white;
+    width: 105px;
+    height: 105px;
+    flex-shrink: 0;
+    border: 4px solid white;
     border-radius: 50%;
     overflow: hidden;
-    flex-shrink: 0;
 }
 
 .photo img {
@@ -37,30 +57,42 @@ header {
     object-fit: cover;
 }
 
-.identite h1 {
-    margin: 0;
-    font-size: 52px;
-    font-weight: bold;
+.bloc-texte {
+    text-align: center;
 }
 
-.identite h2 {
-    margin: 8px 0 26px;
-    font-size: 24px;
+.bloc-texte h1 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.bloc-texte h2 {
+    margin: 4px 0 18px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .coordonnees {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px 55px;
-    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 280px;
+    gap: 8px 45px;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: left;
 }
 
 .coordonnees p {
+    width: 105px;
     margin: 0;
 }
 
-.coordonnees span {
-    display: inline-block;
-    width: 20px;
-    font-weight: bold;
+.coordonnees img {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    vertical-align: middle;
+    color:#efefef;
 }
