@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,9 @@
     <header>
     <div class="entête">
         <div class="photo">
-            <img src="pages/images/photo-moi.png" alt="Portrait de Marion">
+            <a href="pages/images/moi.JPG" target="_blank">
+                <img src="pages/images/moi.JPG" alt="photo de moi">
+            </a>
         </div>
 
         <div class="bloc-texte">
@@ -28,10 +30,27 @@
             <h2>Développeur Web et Web Mobile</h2>
 
             <div class="coordonnees">
-                <p><img src="pages/images/icones/enveloppe.png"> loubjlz19@gmail.com</p>
-                <p><img src="pages/images/icones/maison.png"> 27 rue de Pologne</p>
-                <p><img src="pages/images/icones/appel-telephonique.png">07 66 24 32 03</p>
-                <p><img src="pages/images/icones/voiture-arriere.png"> Sans permis</p>
+                <p>
+                    <img src="pages/images/icones/enveloppe.png" alt="">
+                    <a href="mailto:loubjlz19@gmail.com">loubjlz19@gmail.com</a>
+                </p>
+
+                <p>
+                    <img src="pages/images/icones/maison.png" alt="">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Marseille" target="_blank">
+                    Marseille
+                    </a>
+                </p>
+
+                <p>
+                    <img src="pages/images/icones/appel-telephonique.png" alt="">
+                    <a href="tel:+33766253303">07 66 25 33 03</a>
+                </p>
+
+                <p>
+                    <img src="pages/images/icones/voiture-arriere.png" alt="">
+                    Sans permis
+                </p>
             </div>
         </div>
     </div>
@@ -93,7 +112,7 @@
         <section class="colonne-droite">
             <article>
                 <h3>Profil</h3>
-                    <p>
+                    <p id="profil">
                         Jeune femme passionnée par le développement web et l'univers du numérique, j'ai rapidement
                         choisi de me lancer dans une formation de développeuse web. Curieuse, rigoureuse et motivée, 
                         apprendre ce métier et le pratiquer au quotidien est pour moi une réelle source d'envie et 
@@ -109,7 +128,7 @@
             <article>
                 <h3>Formations</h3>
                     <div class="ligne-cv">
-                        <div>
+                        <div class="survol">
                             <h4>Formation Développeur Web et Web Mobile</h4>
                             <p>Centre Européen de Formation</p>
                         </div>
@@ -117,7 +136,7 @@
                     </div>
 
                     <div class="ligne-cv">
-                        <div>
+                        <div class="survol">
                             <h4>Baccalauréat</h4>
                             <p>Lycée Don Bosco - Marseille</p>
                         </div>
@@ -128,7 +147,7 @@
             <article>
                 <h3>Expériences professionnelle</h3>
                     <div class="ligne-cv">
-                        <div>
+                        <div class="survol">
                             <h4>Stage - Développement de logiciel</h4>
                             <p>Synapse Informatique</p>
                         </div>
@@ -136,7 +155,7 @@
                     </div>
 
                     <div class="ligne-cv">
-                        <div>
+                        <div class="survol">
                             <h4>Stage - Création de contenu</h4>
                             <p>Institut Dali</p>
                         </div>
@@ -148,7 +167,21 @@
     </main>
 
     <footer>
+        <div class="reseaux">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="pages/images/icones/linkedin.png" alt="LinkedIn">
+            </a>
 
+            <a href="https://github.com/" target="_blank">
+                <img src="pages/images/icones/github.png" alt="GitHub">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="pages/images/icones/instagram.png" alt="Instagram">
+            </a>
+        </div>
+
+        <p>Mis à jour le 29 mai 2026</p>
     </footer>
 </body>
 </html>
