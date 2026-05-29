@@ -9,7 +9,7 @@ body {
 }
 
 h1,
-h2 {
+h2, h3 {
     margin: 0;
     font-family: "Raleway", sans-serif;
 }
@@ -95,4 +95,91 @@ header {
     margin-right: 6px;
     vertical-align: middle;
     color:#efefef;
+}
+/*Contenu de la pge*/
+/* Contenu de la page */
+
+.contenu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+
+.colonne-gauche {
+    width: 30%;
+    padding: 40px 50px;
+    background-color: #e3e8e8;
+}
+
+.colonne-droite {
+    width: 70%;
+    padding: 40px 50px;
+}
+
+section,
+article {
+    margin-bottom: 28px;
+}
+
+h3 {
+    color: #17abb3;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 8px;
+    margin: 0 0 18px;
+}
+
+.ligne-competence,
+.ligne-cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.ligne-competence {
+    margin-bottom: 8px;
+}
+
+.ligne-competence p,
+.ligne-cv p,
+.ligne-cv h4 {
+    margin: 0;
+}
+
+.etoiles {
+    width: 65px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.ligne-cv {
+    margin-bottom: 18px;
+}
+
+.ligne-cv h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ligne-cv p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.ligne-cv span {
+    color: #17abb3;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+li::marker {
+    color: #17abb3;
 }
